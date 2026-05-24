@@ -11,3 +11,7 @@ patches:
     target:
       kind: Deployment
       name: course-app
+  - path: ingress-patch.yaml
+    target:
+      kind: Ingress
+      name: course-app-ingress
